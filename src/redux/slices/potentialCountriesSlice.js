@@ -1,4 +1,4 @@
-import { createSlice } from "@reactjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 
 export const potentialCountriesSlice = createSlice({
   name: "potentialCountries",
