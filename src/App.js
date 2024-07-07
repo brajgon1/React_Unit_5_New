@@ -15,8 +15,7 @@ function App() {
     return (
         <div className="App font-link">
             <Header />
-            <OptionDisplay />
-            {/* <MainDisplay /> */}
+            {currentDisplay ? <MainDisplay /> : <OptionDisplay />}
         </div>
     );
 }
